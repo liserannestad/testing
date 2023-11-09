@@ -1,0 +1,6 @@
+rotate(180, triangle(100, "solid", "pink"))
+
+overlay-xy(circle(30, "solid", "pink"), 0, 0, rotate(180, triangle(100, "solid", "brown")))
+
+overlay-xy(circle(30, "solid", "green"), -20, 30, overlay-xy(circle(30, "solid", "blue"), -35, 0, overlay-xy(circle(30, "solid", "pink"), -2, 30, rotate(180, triangle(100, "solid", "brown")))))
+
