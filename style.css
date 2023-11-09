@@ -1,3 +1,9 @@
 body {
-  background-image: url(https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/pc_ver_1.png);
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
 }
