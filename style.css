@@ -77,12 +77,12 @@ div.figurer {
     width: 250px;
 }
 
-div.bildegalleri img {
+div.figurer img {
     width: 100%;
     height: auto;
 }
 
-div.bildegalleri {
+div.figurer {
     padding: 25px;
     text-align: center;
 }
