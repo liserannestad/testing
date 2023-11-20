@@ -2,8 +2,8 @@ import { rectangle, circle, triangle, circlesvg, rectanglesvg, trianglesvg } fro
 
 
 function canvaslise() {
-	circle("black", 250, 250, 61);
-	circle("pink", 250, 250, 60);
+	circle("black", 300, 300, 61);
+	circle("pink", 300, 300, 60);
 	circle("white", 30, 34, 10);
 	circle("white", 70, 34, 10);
 	rectangle("black", 53, 46, 14, 4);
@@ -15,8 +15,8 @@ canvaslise();
 
 
 function svglise() {
-	circlesvg("black", "250", "250", "61");
-	circlesvg("pink", "250", "250", "60");
+	circlesvg("black", "300", "300", "61");
+	circlesvg("pink", "300", "300", "60");
 	circlesvg("white", "30", "34", "10");
 	circlesvg("white", "70", "34", "10");
 	rectanglesvg("black", "53", "46", "14", "4");
