@@ -15,8 +15,8 @@ canvaslise();
 
 
 function svglise() {
-	circlesvg("black", "20", "20", "61");
-	circlesvg("pink", "20", "20", "60");
+	circlesvg("black", "100", "100", "61");
+	circlesvg("pink", "100", "100", "60");
 	circlesvg("white", "30", "34", "10");
 	circlesvg("white", "70", "34", "10");
 	rectanglesvg("black", "53", "46", "14", "4");
