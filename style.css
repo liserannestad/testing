@@ -1,273 +1,113 @@
+html {
+    overflow-y: scroll;
+}
+    
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 20px;
+}
 
-/* Styling av hovedsiden */
+header {
+    flex-basis: 100%;
+}
 
-.Gruppenavn{
-    text-align: center;
-    font-family: Bebas Neue, Serif;
+nav {
+    flex-basis: 100%;
+}
+
+main {
+    flex: auto;
+    min-height: 800px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    background-color: #446479;
+    color: white;
     font-size: 30px;
-
+    padding: 10px;
 }
 
+nav li a:hover {
+    background-color: #374752;
+}
 
-
-
-
-/* Styling av navnbokser på hovedsiden */
-
-.Hawler{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: lightblue;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    border-color: lightblue;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: Bebas Neue, Serif;
+nav li {
     float: left;
-
-
+    width: 25%;
 }
 
-.Jon{
-    width: 100px;
-    height: 100px;
+table {
+    border-collapse: collapse;
+    background-color: #8097a7;
+    width: 970px;
+}
 
+table, th, td {
+    padding: 5px;   
+}
+    
+td, th {
+    width: 33%;
+}
 
-    background-color: darkorange;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    border-color: darkorange;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: Bebas Neue, Serif;
+th {
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+}
+
+div.bildegalleri {
+    margin: 5px;
     float: left;
-    margin-left: 60px;
-
+    width: 250px;
 }
 
-.Jørgen{
-    width: 100px;
-    height: 100px;
+div.bildegalleri img {
+    width: 100%;
+    height: auto;
+}
 
-    background-color: rebeccapurple;
+div.bildegalleri {
+    padding: 25px;
+    text-align: center;
+}
+
+.aktivitetsbilde {
+    border: solid 10px #446479;
+}
+    
+img {
+    width: 320px;
+}
+
+#logo {
+    width: 1000px;
+}
+
+aside {
     border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    border-color: rebeccapurple;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
+    flex-basis: 200px;
+    background-color: lightgreen;
 }
 
-
-.Ole{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: red;
+footer {
     border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    border-color: red;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
-.Nina{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: darkgreen;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    border-color: darkgreen;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
-.Lise{
-    width: 100px;
-    height: 100px;
-
-
-    background-color: hotpink;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    border-color: hotpink;
-    font-family: Bebas Neue, Serif;
-    float: left;
-    margin-left: 60px;
-
-}
-
-.OmGruppe1A{
-    background-color: navajowhite;
-    border-style: solid;
-    border-width: 30px;
-    border-radius: 20px;
-    text-align: center;
-    border-color: navajowhite;
-    font-family: Bebas Neue, Serif;
-    font-size: 40px;
-    float: right;
-    margin-right: 520px;
-
-}
-
-
-/* Styling for infosider om hvert gruppemedlem */
-
-
-/* styling av info side om Hawler */
-
-.hinfo{
-    font-family: Bebas Neue, Serif;
-    text-align: center;
-}
-
-.hkodeopplevelse{
-    font-family: Bebas Neue, Serif;
-}
-
-.hparagraf{
-    font-family: Bebas Neue, Serif;
-    text-align: left;
-    justify-content: left;
-}
-
-.hfigur{
-    font-family: Bebas Neue, Serif;
-}
-
-/* styling av infoside om Jon */
-
-
-.jinfo{
-    font-family: Bebas Neue, Serif;
-    text-align: center;
-}
-
-.jkodeopplevelse{
-    font-family: Bebas Neue, Serif;
-}
-
-.jparagraf{
-    font-family: Bebas Neue, Serif;
-    text-align: left;
-    justify-content: left;
-}
-
-.jfigur{
-    font-family: Bebas Neue, Serif;
-}
-
-
-/* styling av info side om Jørgen */
-
-
-.joinfo{
-    font-family: Bebas Neue, Serif;
-    text-align: center;
-}
-
-.jokodeopplevelse{
-    font-family: Bebas Neue, Serif;
-}
-
-.joparagraf{
-    font-family: Bebas Neue, Serif;
-    text-align: left;
-    justify-content: left;
-}
-
-.jofigur{
-    font-family: Bebas Neue, Serif;
-}
-
-/* styling av info side om Lise */
-
-
-.linfo{
-    font-family: Bebas Neue, Serif;
-    text-align: center;
-}
-
-.lkodeopplevelse{
-    font-family: Bebas Neue, Serif;
-}
-
-.lparagraf{
-    font-family: Bebas Neue, Serif;
-    text-align: left;
-    justify-content: left;
-}
-
-.lfigur{
-    font-family: Bebas Neue, Serif;
-}
-
-/* styling av infoside om Nina */
-
-
-.ninfo{
-    font-family: Bebas Neue, Serif;
-    text-align: center;
-}
-
-.nkodeopplevelse{
-    font-family: Bebas Neue, Serif;
-}
-
-.nparagraf{
-    font-family: Bebas Neue, Serif;
-    text-align: left;
-    justify-content: left;
-}
-
-.nfigur{
-    font-family: Bebas Neue, Serif;
-}
-
-/* styling av info side om Ole */
-
-
-.oinfo{
-    font-family: Bebas Neue, Serif;
-    text-align: center;
-}
-
-.okodeopplevelse{
-    font-family: Bebas Neue, Serif;
-}
-
-.oparagraf{
-    font-family: Bebas Neue, Serif;
-    text-align: left;
-    justify-content: left;
-}
-
-.ofigur{
-    font-family: Bebas Neue, Serif;
+    flex-basis: 100%;
+    background-color: burlywood;
+    min-height: 50px;
 }
