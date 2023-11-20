@@ -17,11 +17,11 @@ canvaslise();
 function svglise() {
 	circlesvg("black", "75", "75", "61");
 	circlesvg("pink", "75", "75", "60");
-	circlesvg("white", "30", "34", "10");
-	circlesvg("white", "70", "34", "10");
-	rectanglesvg("black", "75", "75", "14", "4");
-	circlesvg("black", "33", "37", "7");
-	circlesvg("black", "73", "37", "7");
+	circlesvg("white", "65", "45", "10");
+	circlesvg("white", "85", "45", "10");
+	rectanglesvg("black", "71,5", "60", "14", "4");
+	circlesvg("black", "65", "45", "7");
+	circlesvg("black", "85", "45", "7");
 }
 
 svglise();
