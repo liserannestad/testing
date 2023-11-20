@@ -6,7 +6,7 @@ function canvaslise() {
 	circle("pink", 80, 80, 60);
 	circle("white", 30, 34, 10);
 	circle("white", 70, 34, 10);
-	rectangle("black", 80, 60, 14, 4);
+	rectangle("black", 100, 50, 14, 4);
 	circle("black", 33, 37, 7);
 	circle("black", 73, 37, 7);
 }
