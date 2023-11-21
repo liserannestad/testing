@@ -71,6 +71,21 @@ th {
     background-color: white;
 }
 
+div.figurer {
+    margin: 5px;
+    float: left;
+    width: 250px;
+}
+
+div.figurer img {
+    width: 100%;
+    height: auto;
+}
+
+div.figurer {
+    padding: 25px;
+    text-align: center;
+}
 
 .aktivitetsbilde {
     border: solid 10px #446479;
