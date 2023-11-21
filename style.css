@@ -87,6 +87,10 @@ div.figurer {
     text-align: center;
 }
 
+div.ninafigur {
+    width: 250px;
+}
+
 .aktivitetsbilde {
     border: solid 10px #446479;
 }
